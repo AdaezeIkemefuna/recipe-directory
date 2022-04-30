@@ -1,0 +1,25 @@
+.theme-selector{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.theme-color div{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.toggle-icon{
+    margin-right: auto;
+}
+.toggle-icon img{
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
