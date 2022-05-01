@@ -11,13 +11,13 @@ export default function Navbar() {
 
   return (
     <div className="navbar" style={{backgroundColor: color }}>
-      <nav>
-        <Link to="/" className="brand">
-          <h1>Cooking Mistress</h1>
-        </Link>
-        < Searchbar />
-        <Link to="/create">Create Recipe</Link>
-      </nav>
+        <nav>
+          <Link to="/" className="brand">
+            <h1>Cooking Mistress</h1>
+          </Link>
+          < Searchbar />
+          <Link to="/create">Create Recipe</Link>
+        </nav>
     </div>
   )
 }
